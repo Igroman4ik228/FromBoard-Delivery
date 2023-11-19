@@ -1,0 +1,43 @@
+@import "header";
+@import "calculator";
+
+// $var
+
+// @mixin
+
+
+
+
+// ----------- //
+.btn-reset {
+	border: none;
+	background: transparent;
+}
+
+.hide {
+	display: none;
+}
+
+
+body {
+	// *DON'T FORGET ABOUT FONTS
+	font-family: 'Formular', sans-serif;
+	font-size: 14px;
+	color: #111827;
+	font-weight: 400;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.main {
+	background-color: #E5E7EB;
+	padding: 72px 0;
+}
+
+.container {
+	max-width: 1566px;
+	margin: 0 auto;
+	padding: 0 15px;
+}

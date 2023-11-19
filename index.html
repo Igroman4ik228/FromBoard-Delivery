@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- Установка русского языка -->
+<html lang="ru">
+
+
+<head>
+
+	<!-- Определяет кодировку символов в UTF-8 -->
+	<meta charset="UTF-8">
+
+	<!-- Адаптивный веб-дизайна -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- НЕ адаптивный веб-дизайна -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">> -->
+
+	<!-- Заголовок документа на вкладке браузера -->
+	<title>Pattern</title>
+
+	<!-- Иконки документа - Favicon https://favicon.io https://realfavicongenerator.net -->
+	<link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+	<link rel="manifest" href="./icons/site.webmanifest">
+	<link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#2b5797">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- SEO -->
+	<!-- Описание страницы -->
+	<meta name="description" content="Test web page">
+	<!-- Ключевые слова  -->
+	<meta name="keywords" content="html, css, sass, scss, webdev">
+	<!-- Имя автора -->
+	<meta name="author" content="igroman4ik">
+
+	<!-- Использовать последнюю версию IE -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Google шрифты -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link rel="preload" as="style" href="#" />
+	<link rel="stylesheet" href="#" media="print" onload="this.media='all'" />
+
+	<!-- Локальные шрифты -->
+	<link rel="preload" href="./fonts/Formular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="./fonts/Formular-Black.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="./fonts/Formular-Bold.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="./fonts/Formular-Light.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="stylesheet" href="./fonts/style.css" media="print" onload="this.media='all'" />
+
+	<!-- Внешние стили -->
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.min.css">
+
+
+
+</head>
+
+
+<body>
+
+	<!--  Header  -->
+	<header class="header">
+		<div class="container">
+			<div class="top">
+				<div class="logo">
+					<a href="#">
+						<img src="./img/logo.svg" alt="logo">
+						<h2>FromBoard Delivery</h2>
+					</a>
+				</div>
+				<div class="info-wrapper">
+					<div class="info">
+						<p>Доставляем товары из заграницы в Россию</p>
+						<p>Стоимость от 550 рублей за заказ</p>
+						<p>1 $ = 93 ₽ | 1 € = 99 ₽ | 1 ¥ = 13 ₽</p>
+					</div>
+					<div class="tel">
+						<a class="link" href="tel: +78001234567">+7 (800) 123 45-67</a>
+						<p>Звонки по России бесплатны</p>
+					</div>
+				</div>
+			</div>
+			<nav class="menu">
+				<ul class="list">
+					<li><a class="active" href="#">Калькулятор</a></li>
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Гарантии</a></li>
+					<li><a href="#">Отзывы</a></li>
+				</ul>
+				<a class="button" href="#">Оставить заявку</a>
+			</nav>
+		</div>
+	</header>
+
+	<!--  Main  -->
+	<main class="main">
+		<section class="calculator">
+			<div class="container">
+				<div class="wrapper">
+					<div class="text-wrapper">
+						<h1 class="title">Без проблемная доставка купленных вещей из США, Европы и Азии в Россию</h1>
+						<p class="text">Сэкономьте на покупках и наслаждайтесь мировыми брендами — наш сервис позволяет
+							вам
+							легко и удобно заказывать товары со всего мира и получать их в России</p>
+						<img class="img" src="./img/calc-img.png" alt="calc-img">
+					</div>
+					<div class="delivery-calc">
+						<h3 class="title">Калькулятор доставки</h3>
+						<p class="text">Посчитайте, сколько будет стоить перевозка покупки из зарубежа</p>
+						<form class="form" action="">
+							<label for=""><input placeholder="Имя" type="text"></label>
+							<label for=""><input placeholder="Почта" type="email"></label>
+							<label for=""><input placeholder="Телефон" type="tel"></label>
+							<label for=""><input placeholder="Общая площадь, м²" type="number"></label>
+							<label for=""><input placeholder="Вес, кг" type="number"></label>
+							<label for=""><input placeholder="Страна покупки" type="text"></label>
+							<label for=""><input placeholder="Город покупки" type="text"></label>
+							<label for=""><input placeholder="Область доставки" type="text"></label>
+							<label for=""><input placeholder="Город доставки" type="text"></label>
+							<button class="button">Заказать расчёт</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!--  Footer  -->
+	<footer class="footer">
+		<div class="container">
+
+		</div>
+	</footer>
+
+
+	<!-- External scripts files -->
+	<script src="./js/main.js"></script>
+
+</body>
+
+
+</html>

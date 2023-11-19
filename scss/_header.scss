@@ -1,0 +1,127 @@
+.header {
+    padding: 24px 0;
+
+    & .top {
+        display: flex;
+        justify-content: space-between;
+
+        & .logo>a {
+            color: #111827;
+            font-size: 24px;
+            font-weight: 900;
+            line-height: 32px;
+            display: flex;
+            align-items: center;
+        }
+
+        & .logo h2 {
+            color: #111827;
+            font-size: 24px;
+            font-weight: 900;
+            line-height: 32px;
+            margin-left: 4px;
+        }
+
+        & .info-wrapper {
+            display: flex;
+
+            & .info {
+                text-align: right;
+                color: #111827;
+                font-size: 16px;
+                line-height: 24px;
+
+
+
+            }
+
+
+
+            & .tel {
+                margin-left: 24px;
+                position: relative;
+
+                & .link {
+                    color: #111827;
+                    font-size: 36px;
+                    font-weight: 900;
+                    line-height: 40px;
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 2px;
+                    height: 76px;
+                    background-color: #A78BFA;
+                    top: 0;
+                    left: -12px;
+                }
+
+                &>p {
+                    color: #111827;
+                    font-size: 24px;
+                    font-weight: 300;
+                    line-height: 32px;
+                    margin-top: 4px;
+                }
+            }
+
+
+
+        }
+
+
+    }
+
+    & .menu {
+        margin-top: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & .list {
+            display: flex;
+
+            & li:not(:first-child) {
+                margin-left: 24px;
+            }
+
+            & li a {
+                color: #111827;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                transition: all 0.2s ease-in;
+
+                &:hover {
+                    color: #8B5CF6;
+
+                }
+
+                &:active {
+                    color: #8B5CF6;
+                    border-bottom: #8B5CF6 dashed 2px;
+                }
+            }
+
+            & .active {
+                color: #8B5CF6;
+                border-bottom: #8B5CF6 dashed 2px;
+            }
+
+        }
+
+        & .button {
+            border-radius: 4px;
+            background: #8B5CF6;
+            padding: 10px 28px;
+            color: #F9FAFB;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+    }
+
+
+}
