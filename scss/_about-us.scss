@@ -16,10 +16,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 24px;
+        flex-wrap: wrap;
 
         & .item {
             display: flex;
             padding: 24px;
+            flex-wrap: wrap;
 
             & .img-wrapper {
                 width: 136px;
