@@ -41,3 +41,19 @@ body {
 	margin: 0 auto;
 	padding: 0 15px;
 }
+
+.button {
+	transition: background-color 0.2s;
+}
+
+.button:hover {
+	background-color: #A78BFA !important;
+}
+
+.button:active {
+	background: #6D28D9 !important;
+}
+
+.button:disabled {
+	background: #DDD6FE !important;
+}

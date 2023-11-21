@@ -110,15 +110,22 @@
 						<h3 class="title">Калькулятор доставки</h3>
 						<p class="text">Посчитайте, сколько будет стоить перевозка покупки из зарубежа</p>
 						<form class="form" action="">
-							<label for=""><input placeholder="Имя" type="text"></label>
-							<label for=""><input placeholder="Почта" type="email"></label>
-							<label for=""><input placeholder="Телефон" type="tel"></label>
-							<label for=""><input placeholder="Общая площадь, м²" type="number"></label>
-							<label for=""><input placeholder="Вес, кг" type="number"></label>
-							<label for=""><input placeholder="Страна покупки" type="text"></label>
-							<label for=""><input placeholder="Город покупки" type="text"></label>
-							<label for=""><input placeholder="Область доставки" type="text"></label>
-							<label for=""><input placeholder="Город доставки" type="text"></label>
+
+							<label for=""><input class="first" placeholder="Имя" type="text"></label>
+							<div class="wrapper">
+								<div class="block-left">
+									<label for=""><input placeholder="Почта" type="email"></label>
+									<label for=""><input placeholder="Общая площадь, м²" type="number"></label>
+									<label for=""><input placeholder="Страна покупки" type="text"></label>
+									<label for=""><input placeholder="Область доставки" type="text"></label>
+								</div>
+								<div class="block-right">
+									<label for=""><input placeholder="Телефон" type="tel"></label>
+									<label for=""><input placeholder="Вес, кг" type="number"></label>
+									<label for=""><input placeholder="Город покупки" type="text"></label>
+									<label for=""><input placeholder="Город доставки" type="text"></label>
+								</div>
+							</div>
 							<button class="button">Заказать расчёт</button>
 						</form>
 					</div>
