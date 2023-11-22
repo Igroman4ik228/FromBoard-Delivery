@@ -1,11 +1,15 @@
 @import "header";
 @import "calculator";
 @import "about-us";
+@import "guarantee";
+@import "feedback";
+@import "question";
+@import "footer";
 // $var
 
 // @mixin
 
-
+// ToDo optimization
 
 
 // ----------- //
@@ -43,10 +47,17 @@ body {
 }
 
 .button {
+	padding: 0 28px;
+	line-height: 22px;
+	overflow: hidden;
+	color: #F9FAFB;
+	border-radius: 4px;
+	background-color: #8B5CF6;
 	transition: background-color 0.2s;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
 	background-color: #A78BFA !important;
 }
 
@@ -56,4 +67,9 @@ body {
 
 .button:disabled {
 	background: #DDD6FE !important;
+}
+
+input {
+	height: 100%;
+	width: 100%;
 }

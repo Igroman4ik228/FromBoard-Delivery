@@ -72,12 +72,12 @@
                 display: flex;
                 justify-content: space-between;
 
-                & .block-left {
+                & .form-left {
                     display: flex;
                     flex-direction: column;
                 }
 
-                & .block-right {
+                & .form-right {
                     display: flex;
                     flex-direction: column;
                 }
@@ -85,7 +85,7 @@
 
 
 
-            & label input {
+            & input {
                 height: 48px;
                 width: 236px;
                 border-radius: 4px;
@@ -105,15 +105,10 @@
             & .button {
                 margin: 0 auto;
                 margin-top: 28px;
-                width: 440px;
-                padding: 10px 0;
-                border-radius: 4px;
-                background: #8B5CF6;
-                color: #F9FAFB;
+                width: 497px;
+                height: 44px;
                 font-size: 16px;
                 font-weight: 700;
-                line-height: 24px;
-
             }
         }
     }
